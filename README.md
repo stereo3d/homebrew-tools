@@ -3,6 +3,6 @@
 ## homebrew formula:
 
 ```
-brew tap stereo3d/svs
+brew tap stereo3d/tools
 brew install svs
 ```
