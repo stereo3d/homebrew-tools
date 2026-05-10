@@ -12,9 +12,10 @@ class Mvc2stereo < Formula
 
   depends_on "ffmpeg"
 
-  def install
-    bin.install "mvc2stereo"
-  end
+def install
+  bin.install "mvc2stereo"
+  doc.install "THIRD-PARTY-NOTICES.md"
+end
 
   test do
     assert_match "USAGE", shell_output("#{bin}/mvc2stereo --help")
